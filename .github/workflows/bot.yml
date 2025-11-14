@@ -2,8 +2,8 @@ name: Daily Twitter Bot
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # Her gün 12:00'da paylaşır
-  workflow_dispatch:      # Elle çalıştırmak için buton ekler
+    - cron: "0 12 * * *"
+  workflow_dispatch:
 
 jobs:
   tweet:
